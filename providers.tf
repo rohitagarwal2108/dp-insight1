@@ -4,13 +4,6 @@ terraform {
       version = "3.0.0"
     }
   }
-
-  backend "remote" {
-    organization = "dp-insight"
-    workspaces {
-      name = "gh-actions-demo"
-    }
-  }
 }
 
 # Configure the AWS Provider
