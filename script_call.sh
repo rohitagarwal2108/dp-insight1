@@ -11,7 +11,7 @@ docker build .
 
 cd ../API
 docker build .
-
+echo "rohit"
 cd ../../..
 tag_file1="image1"
 tag_file2="image2"
