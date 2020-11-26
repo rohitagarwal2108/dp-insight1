@@ -16,7 +16,7 @@ cd ../../..
 tag_file1="image1"
 tag_file2="image2"
 #echo $tag_file1
-echo "rohit"
+echo "rdmfmkdot"
 docker images > xyz.txt
 imageid2=`awk '{print$3}' xyz.txt | head -2 | tail -1`
 echo $imageid2
